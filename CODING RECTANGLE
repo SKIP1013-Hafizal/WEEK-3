@@ -1,0 +1,25 @@
+package exercise1;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Print the area and perimeter of a rectangle given its length and width 
+		 
+			double length = 1.2;
+			double width = 4.0;
+			double area;
+			double perimeter;
+			
+			
+			area = length * width;
+			perimeter = (length +length + width + width);
+			
+			
+			System.out.printf("The Area of Rectangular is: %.2f" , area);
+			System.out.printf("\nThe Perimeter of Rectangular is: %.2f" , perimeter);
+			
+
+	}
+
+}
