@@ -1,0 +1,26 @@
+package exercise1;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Print the surface area, base area and volume of a cylinder given its radious and height.
+
+	    double radius = 2.0;
+	    double height = 6.0;
+	    double surfaceArea;
+	    double baseArea;
+	    double volume;
+	    final double PI = 3.14159265; // Declare as "final" to specify that its value cannot be changed (i.e. constant).
+	    
+	    surfaceArea = (2.0 * PI * (radius*radius)) + (2.0 * PI * radius* height);
+	    baseArea = PI*(radius*radius);
+	    volume = baseArea*height;
+	    
+	    System.out.printf("The Surface Area of Cylinder is: %.2f" , surfaceArea);
+	    System.out.printf("\nThe Base Area of Cylinder is: %.2f" , baseArea);
+	    System.out.printf("\nThe Volume of Cylinder is: %.2f" , volume);
+
+	}
+
+}
